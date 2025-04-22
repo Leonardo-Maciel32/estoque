@@ -6,8 +6,10 @@
 @section('content')
     <div class="container">
         <h1 class="mb-4 text-center">📦 Fornecedores</h1>
-    <div class="d-flex justify-content-end">
-        <a href="{{ route('fornecedores.create') }}" class="btn btn-primary mb-3">Adicionar Fornecedor</a>
+        
+    <div class="text-end mb-3">
+        <a href="{{ route('home') }}" class="btn btn-primary float-start">Voltar</a>
+        <a href="{{ route('fornecedores.create') }}" class="btn btn-primary">Adicionar Fornecedor</a>
     </div>
 
     @if(session('success'))
