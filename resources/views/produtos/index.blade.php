@@ -12,6 +12,7 @@
     @endif
 
     <div class="text-end mb-3">
+        <a href="{{ route('home') }}" class="btn btn-primary float-start">Voltar</a>
         <a href="{{ route('produtos.create') }}" class="btn btn-primary">Adicionar Produto</a>
     </div>
     
